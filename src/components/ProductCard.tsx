@@ -13,7 +13,7 @@ const { Provider } = ProductContext
 
 export interface Props {
     product: Product;
-   // children?: ReactElement | ReactElement[];
+ 
     children:(args:ProductCardHandlers) => JSX.Element;
 
     className?: string;
