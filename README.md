@@ -12,6 +12,12 @@ import { ProductCard, ProductImage, ProductButtons, ProductTitle } from '../.';
 ```
 
 ```
+const product = {
+      id: '1',
+      title: 'your title',
+      img:'your url image'
+}
+
  <ProductCard
               key={product.id}
               product={product}           
@@ -25,9 +31,9 @@ import { ProductCard, ProductImage, ProductButtons, ProductTitle } from '../.';
               {
                 ({reset, isMaxCountReached, increaseBy, count, }) => (
                   <>
-                    <ProductCard.Image  />
-                    <ProductCard.Title />
-                    <ProductCard.Buttons />
+                    <ProductImage  />
+                    <ProductTitle/>
+                    <ProductButtons />
 
                   </>
                 )
