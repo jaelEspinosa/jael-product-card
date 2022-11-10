@@ -6,8 +6,8 @@ import { onChangeArgs, Product, InitialValues } from '../interfaces/interfaces';
 interface useProductsArgs {
     product: Product,
     value?:number;
-    onChange?: ( args: onChangeArgs ) => void;
     initialValues?:InitialValues;
+    onChange?: ( args: onChangeArgs ) => void;
 }
 
 
